@@ -16,6 +16,8 @@ public class Figura
     
     public void calcularArea(){}
     
+    public String decirCualFigura(){ return "";}
+    
     public float accederArea()
     {
         return area;

@@ -18,4 +18,9 @@ public class Circle extends Figura
     {
         area = radio * radio * (float)3.1416;
     }
+    
+    public String decirCualFigura()
+    {
+        return "circulo";
+    }
 }

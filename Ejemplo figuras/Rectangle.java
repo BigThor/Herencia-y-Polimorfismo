@@ -20,4 +20,9 @@ public class Rectangle extends Figura
     {
         area = base * altura;
     }
+    
+    public String decirCualFigura()
+    {
+        return "rectangulo";
+    }
 }

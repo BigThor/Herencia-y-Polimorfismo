@@ -20,4 +20,9 @@ public class Triangle extends Figura
     {
         area = base * altura / 2;
     }
+    
+    public String decirCualFigura()
+    {
+        return "triangulo";
+    }
 }
