@@ -1,4 +1,5 @@
-
+import java.util.ArrayList;
+import java.util.Iterator;
 /**
  * Write a description of class Principal here.
  * 
@@ -26,6 +27,30 @@ public class Principal
         
         for(Figura figTemp : figuras)
         {
+            System.out.println("El area del " + figTemp.decirCualFigura() + " es: " + figTemp.accederArea());
+        }
+        
+        ArrayList<Figura> listaFiguras = new ArrayList<Figura>();
+        Iterator<Figura> itFig = listaFiguras.iterator();
+        
+        t1 = new Triangle(5,2);
+        r1 = new Rectangle(4,6);
+        c1 = new Circle(3);
+        
+        listaFiguras.add(t1);
+        listaFiguras.add(r1);
+        listaFiguras.add(c1);
+        
+        while(itFig.hasNext())
+        {
+            Figura figTemp = itFig.next();
+            figTemp.calcularArea();
+        }
+        
+        itFig = listaFiguras.iterator();
+        while(itFig.hasNext())
+        {
+            Figura figTemp = itFig.next();
             System.out.println("El area del " + figTemp.decirCualFigura() + " es: " + figTemp.accederArea());
         }
     }
