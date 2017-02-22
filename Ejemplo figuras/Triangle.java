@@ -21,8 +21,8 @@ public class Triangle extends Figura
         area = base * altura / 2;
     }
     
-    public String decirCualFigura()
+    public String decirInfo()
     {
-        return "triangulo";
+        return "El area del triangulo, con base " + base + " y altura " + altura + ", es: " + super.decirInfo();
     }
 }

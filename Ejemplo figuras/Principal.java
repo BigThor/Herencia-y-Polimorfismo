@@ -27,11 +27,11 @@ public class Principal
         
         for(Figura figTemp : figuras)
         {
-            System.out.println("El area del " + figTemp.decirCualFigura() + " es: " + figTemp.accederArea());
+            System.out.println(figTemp.decirInfo());
         }
         
         ArrayList<Figura> listaFiguras = new ArrayList<Figura>();
-        Iterator<Figura> itFig = listaFiguras.iterator();
+        Iterator<Figura> itFig;
         
         t1 = new Triangle(5,2);
         r1 = new Rectangle(4,6);
@@ -41,6 +41,8 @@ public class Principal
         listaFiguras.add(r1);
         listaFiguras.add(c1);
         
+
+        itFig = listaFiguras.iterator();
         while(itFig.hasNext())
         {
             Figura figTemp = itFig.next();
@@ -51,7 +53,7 @@ public class Principal
         while(itFig.hasNext())
         {
             Figura figTemp = itFig.next();
-            System.out.println("El area del " + figTemp.decirCualFigura() + " es: " + figTemp.accederArea());
+            System.out.println(figTemp.decirInfo());
         }
     }
 }
