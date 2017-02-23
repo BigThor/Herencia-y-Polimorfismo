@@ -16,7 +16,11 @@ public class Figura
     
     public void calcularArea(){}
     
-    public String decirInfo(){ return "" + area;}
+    @Override
+    public String toString()
+    {
+        return "" + area;
+    }
     
     public float accederArea()
     {

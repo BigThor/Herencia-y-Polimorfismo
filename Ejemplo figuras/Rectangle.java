@@ -21,8 +21,9 @@ public class Rectangle extends Figura
         area = base * altura;
     }
     
-    public String decirInfo()
+    @Override
+    public String toString()
     {
-        return "El area del triangulo, con base " + base + " y altura " + altura + ", es: " + super.decirInfo();
+        return "El area del rectangulo, con base " + base + " y altura " + altura + ", es: " + super.toString();
     }
 }

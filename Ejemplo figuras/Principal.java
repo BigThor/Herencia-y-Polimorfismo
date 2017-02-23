@@ -27,7 +27,7 @@ public class Principal
         
         for(Figura figTemp : figuras)
         {
-            System.out.println(figTemp.decirInfo());
+            System.out.println(figTemp);
         }
         
         ArrayList<Figura> listaFiguras = new ArrayList<Figura>();
@@ -53,7 +53,7 @@ public class Principal
         while(itFig.hasNext())
         {
             Figura figTemp = itFig.next();
-            System.out.println(figTemp.decirInfo());
+            System.out.println(figTemp);
         }
     }
 }

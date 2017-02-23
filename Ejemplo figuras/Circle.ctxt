@@ -4,5 +4,5 @@ comment0.target=Circle(float)
 comment1.params=
 comment1.target=void\ calcularArea()
 comment2.params=
-comment2.target=java.lang.String\ decirInfo()
+comment2.target=java.lang.String\ toString()
 numComments=3

@@ -19,8 +19,9 @@ public class Circle extends Figura
         area = radio * radio * (float)3.1416;
     }
     
-    public String decirInfo()
+    @Override
+    public String toString()
     {
-        return "El area del circulo, con radio " + radio + ", es: " + super.decirInfo();
+        return "El area del circulo, con radio " + radio + ", es: " + super.toString();
     }
 }
