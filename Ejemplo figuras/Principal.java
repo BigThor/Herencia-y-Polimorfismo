@@ -10,6 +10,13 @@ public class Principal
 {
     public static void main(String [] args)
     {
+        
+        
+        
+        
+        
+        
+        /*
         Triangle t1 = new Triangle(4,3);
         Rectangle r1 = new Rectangle(2,7);
         Circle c1 = new Circle(5);
@@ -54,6 +61,6 @@ public class Principal
         {
             Figura figTemp = itFig.next();
             System.out.println(figTemp);
-        }
+        }*/
     }
 }

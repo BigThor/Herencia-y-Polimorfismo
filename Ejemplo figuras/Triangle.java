@@ -10,12 +10,19 @@ public class Triangle extends Figura
     private float base;
     private float altura;
     
-    public Triangle(float a, float b)
+    public Triangle(int x, int y, float a, float b)
     {
+        super(x, y);
         base = a;
         altura = b;
     }
     
+    @Override
+    public void dibujar()
+    {
+        
+    }
+    /*
     public void calcularArea()
     {
         area = base * altura / 2;
@@ -26,4 +33,5 @@ public class Triangle extends Figura
     {
         return "El area del triangulo, con base " + base + " y altura " + altura + ", es: " + super.toString();
     }
+    */
 }

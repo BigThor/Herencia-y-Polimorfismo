@@ -9,11 +9,19 @@ public class Circle extends Figura
 {
     private float radio;
     
-    public Circle(float r)
+    
+    public Circle(int x, int y, float r)
     {
+        super(x, y);
         radio = r;
     }
     
+    @Override
+    public void dibujar()
+    {
+        
+    }
+    /*
     public void calcularArea()
     {
         area = radio * radio * (float)3.1416;
@@ -23,5 +31,5 @@ public class Circle extends Figura
     public String toString()
     {
         return "El area del circulo, con radio " + radio + ", es: " + super.toString();
-    }
+    }*/
 }

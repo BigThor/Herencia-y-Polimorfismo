@@ -5,9 +5,20 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Figura
+public abstract class Figura
 {
-    protected float area;
+    private int posx;
+    private int posy;
+    
+    public Figura(int x, int y)
+    {
+        posx  = x;
+        posy  = y;
+    }
+    
+    public abstract void dibujar();
+    
+    /*protected float area;
     
     public Figura()
     {
@@ -25,5 +36,5 @@ public class Figura
     public float accederArea()
     {
         return area;
-    }
+    }*/
 }

@@ -1,10 +1,6 @@
 #BlueJ class context
-comment0.params=
-comment0.target=Figura()
+comment0.params=x\ y
+comment0.target=Figura(int,\ int)
 comment1.params=
-comment1.target=void\ calcularArea()
-comment2.params=
-comment2.target=java.lang.String\ toString()
-comment3.params=
-comment3.target=float\ accederArea()
-numComments=4
+comment1.target=void\ dibujar()
+numComments=2

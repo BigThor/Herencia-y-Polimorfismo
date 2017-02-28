@@ -1,8 +1,6 @@
 #BlueJ class context
-comment0.params=a\ b
-comment0.target=Triangle(float,\ float)
+comment0.params=x\ y\ a\ b
+comment0.target=Triangle(int,\ int,\ float,\ float)
 comment1.params=
-comment1.target=void\ calcularArea()
-comment2.params=
-comment2.target=java.lang.String\ toString()
-numComments=3
+comment1.target=void\ dibujar()
+numComments=2
