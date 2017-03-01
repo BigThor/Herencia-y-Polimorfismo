@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.params=x\ y\ a\ b
 comment0.target=Rectangle(int,\ int,\ float,\ float)
-comment1.params=
-comment1.target=void\ dibujar()
+comment1.params=g
+comment1.target=void\ dibujar(java.awt.Graphics)
 numComments=2

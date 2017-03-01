@@ -1,4 +1,5 @@
-
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 /**
  * Write a description of class Rectangulo here.
  * 
@@ -18,9 +19,10 @@ public class Rectangle extends Figura
     }
     
     @Override
-    public void dibujar()
+    public void dibujar(Graphics g)
     {
-        
+        Graphics2D g2 = (Graphics2D)g;
+        g2.drawRect(super.decirCoordenadaX(), super.decirCoordenadaY(), (int)base, (int)altura);
     }
     
     /*

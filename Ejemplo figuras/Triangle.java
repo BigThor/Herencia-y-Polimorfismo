@@ -1,4 +1,5 @@
-
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 /**
  * Write a description of class Triangulo here.
  * 
@@ -18,9 +19,10 @@ public class Triangle extends Figura
     }
     
     @Override
-    public void dibujar()
+    public void dibujar(Graphics g)
     {
-        
+        Graphics2D g2 = (Graphics2D)g;
+        //g2.drawPolygon([, _yPoints_, 3);
     }
     /*
     public void calcularArea()

@@ -1,4 +1,6 @@
-
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.Color;
 /**
  * Write a description of class Figura here.
  * 
@@ -16,7 +18,17 @@ public abstract class Figura
         posy  = y;
     }
     
-    public abstract void dibujar();
+    public int decirCoordenadaX()
+    {
+        return posx;
+    }
+    
+    public int decirCoordenadaY()
+    {
+        return posy;
+    }
+    
+    public abstract void dibujar(Graphics g);
     
     /*protected float area;
     

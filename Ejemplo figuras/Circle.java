@@ -1,4 +1,5 @@
-
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 /**
  * Write a description of class Circulo here.
  * 
@@ -9,7 +10,6 @@ public class Circle extends Figura
 {
     private float radio;
     
-    
     public Circle(int x, int y, float r)
     {
         super(x, y);
@@ -17,10 +17,12 @@ public class Circle extends Figura
     }
     
     @Override
-    public void dibujar()
+    public void dibujar(Graphics g)
     {
-        
+        Graphics2D g2 = (Graphics2D)g;
+        g2.drawOval(super.decirCoordenadaX(), super.decirCoordenadaY(), (int)radio, (int)radio);
     }
+    
     /*
     public void calcularArea()
     {

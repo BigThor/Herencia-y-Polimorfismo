@@ -2,5 +2,9 @@
 comment0.params=x\ y
 comment0.target=Figura(int,\ int)
 comment1.params=
-comment1.target=void\ dibujar()
-numComments=2
+comment1.target=int\ decirCoordenadaX()
+comment2.params=
+comment2.target=int\ decirCoordenadaY()
+comment3.params=g
+comment3.target=void\ dibujar(java.awt.Graphics)
+numComments=4
