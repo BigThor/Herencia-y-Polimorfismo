@@ -20,20 +20,4 @@ public class Banco
     {
         cuentas.add(nuevaC);
     }
-    
-    public float calcularPromedio()
-    {
-        Iterator<CuentaBancaria> it;
-        float promedio = 0;
-        
-        it = cuentas.iterator();
-        while(it.hasNext())
-        {
-            CuentaBancaria cuentaAux = it.next();
-            promedio += cuentaAux.decirSaldo();
-        }
-        
-        promedio /= cuentas.size();
-        return promedio;
-    }
 }

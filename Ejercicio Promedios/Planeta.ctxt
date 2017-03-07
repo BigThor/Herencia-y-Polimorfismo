@@ -3,6 +3,4 @@ comment0.params=
 comment0.target=Planeta()
 comment1.params=nuevo
 comment1.target=void\ a\u00F1adirPais(Pais)
-comment2.params=
-comment2.target=float\ calcularPromedio()
-numComments=3
+numComments=2

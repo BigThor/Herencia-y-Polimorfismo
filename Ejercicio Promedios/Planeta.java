@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Iterator;
+
 /**
  * Write a description of class Planeta here.
  * 
@@ -8,31 +9,15 @@ import java.util.Iterator;
  */
 public class Planeta
 {
-    private ArrayList<Pais> planet;
+    private ArrayList<Pais> paises;
     
     public Planeta()
     {
-        planet = new ArrayList<Pais>();
+        paises = new ArrayList<Pais>();
     }
     
     public void añadirPais(Pais nuevo)
     {
-        planet.add(nuevo);
-    }
-    
-    public float calcularPromedio()
-    {
-        Iterator<Pais> it;
-        float promedio = 0;
-        
-        it = planet.iterator();
-        while(it.hasNext())
-        {
-            Pais paisAux = it.next();
-            promedio += paisAux.decirHabitantes();
-        }
-        
-        promedio /= planet.size();
-        return promedio;
+        paises.add(nuevo);
     }
 }
