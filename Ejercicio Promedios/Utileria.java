@@ -6,7 +6,7 @@
  */
 public class Utileria
 {
-    public float calcularPromedio(Medible [] medidas)
+    public static float calcularPromedio(Medible [] medidas)
     {
         float promedio = 0;
         

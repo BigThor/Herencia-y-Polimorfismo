@@ -20,4 +20,11 @@ public class Planeta
     {
         paises.add(nuevo);
     }
+    
+    public float calcularPromedio()
+    {
+        Pais [] arrPaises = new Pais[paises.size()];
+        arrPaises = paises.toArray(arrPaises);
+        return Utileria.calcularPromedio(arrPaises);
+    }
 }
