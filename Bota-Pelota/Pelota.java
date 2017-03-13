@@ -20,8 +20,12 @@ public class Pelota
         posx = x;
         posy = y;
         radio = r;
-        incY = 10;
-        incX = 10;
+        float signox = (float)( ( Math.random() ) - 0.5);
+        float signoy = (float)( ( Math.random() ) - 0.5);
+        
+        incY = (int)(30 * signox);
+        incX = (int)(30 * signoy);
+        
     }
     
     public void mover(Rectangle rect)
