@@ -1,7 +1,8 @@
 #BlueJ class context
 comment0.params=
 comment0.target=Lienzo()
-comment1.params=g
-comment1.target=void\ paintComponent(java.awt.Graphics)
-comment1.text=\r\n\ \ \ \ public\ void\ actuar()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ pelota.mover(getBounds());\r\n\ \ \ \ \ \ \ \ this.repaint();\r\n\ \ \ \ }\r\n\ \ \ \ \r\n\ \ \ \ public\ void\ mover()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ \r\n}
-numComments=2
+comment1.params=
+comment1.target=void\ actuar()
+comment2.params=g
+comment2.target=void\ paintComponent(java.awt.Graphics)
+numComments=3

@@ -1,6 +1,8 @@
 #BlueJ class context
 comment0.params=x\ y\ r
 comment0.target=Pelota(int,\ int,\ int)
-comment1.params=g
-comment1.target=void\ dibujar(java.awt.Graphics)
-numComments=2
+comment1.params=rect
+comment1.target=void\ mover(java.awt.Rectangle)
+comment2.params=g
+comment2.target=void\ dibujar(java.awt.Graphics)
+numComments=3

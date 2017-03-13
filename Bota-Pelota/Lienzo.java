@@ -13,24 +13,19 @@ public class Lienzo extends JPanel
     
     public Lienzo()
     {
-        pelota = new Pelota(100, 100, 10);
+        pelota = new Pelota(100, 100, 20);
     }
     
-    /*
     public void actuar()
     {
-        pelota.mover(getBounds());
+        pelota.mover(this.getBounds());
         this.repaint();
     }
-    
-    public void mover()
-    {
-        
-    }*/
     
     @Override
     public void paintComponent(Graphics g)
     {
+        super.paintComponent(g);
         pelota.dibujar(g);
     }
 }

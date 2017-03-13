@@ -27,7 +27,7 @@ public class Ventana extends JFrame
         this.addKeyListener(escuchaTeclado);
         
         EscuchadorTiempo escuchaTiempo = new EscuchadorTiempo();
-        tiempo = new Timer(1000, escuchaTiempo);
+        tiempo = new Timer(100, escuchaTiempo);
         tiempo.start();
     }
     
@@ -37,7 +37,7 @@ public class Ventana extends JFrame
         @Override
         public void actionPerformed(ActionEvent e)
         {
-            System.out.println("Hola pelota :)");
+            dibujo.actuar();
         }
     }
     
